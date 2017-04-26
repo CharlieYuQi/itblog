@@ -1,7 +1,7 @@
 #### Opentsdb对特殊字符规范如下;
 
 
-> The following rules apply to metric and tag values:
+> The following rules apply to metric and tag values:  
 Strings are case sensitive, i.e. "Sys.Cpu.User" will be stored separately from "sys.cpu.user"  
 Spaces are not allowed  
 Only the following characters are allowed: a to z, A to Z, 0 to 9, -, _, ., / or Unicode letters (as per the specification)
