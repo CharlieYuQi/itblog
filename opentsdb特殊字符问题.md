@@ -46,6 +46,8 @@ public final class net.opentsdb.core.TSDB
 ```
 
 所以只需要在opentsdb的配置文件里加上该属性配置就可以，例如 *tsd.core.tag.allow_specialchars = :* 就将“:”设置为允许的字符了。
+很奇怪的在于opentsdb的官方文档里没有列出该配置属性 [OpenTSDB Configuration](http://opentsdb.net/docs/build/html/user_guide/configuration.html)
+
 
 2、写入opentsdb之前进行数据转换。
 ```java
