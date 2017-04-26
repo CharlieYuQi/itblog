@@ -1,2 +1,2 @@
 # itblog
-# itblog from CharlieYu
+# it blog from CharlieYu
